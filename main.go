@@ -1,7 +1,12 @@
 package main
+import (
+	"github.com/ogier/pflag"
+)
 
-import "fmt"
-
+// flags
+var (
+	user  string
+)
 func main() {
-	fmt.Println("Hello!")
+	
 }
